@@ -1,0 +1,27 @@
+/* Fraunces */
+
+/* Fraunces Bold */
+@font-face {
+  font-family: "Fraunces";
+  src: url("./../assets/fonts/Fraunces_9pt_Soft-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* Montserrat */
+
+/* Montserrat Medium */
+@font-face {
+  font-family: "Montserrat";
+  src: url("./../assets/fonts/Montserrat-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* Montserrat Bold */
+@font-face {
+  font-family: "Montserrat";
+  src: url("./../assets/fonts/Montserrat-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}

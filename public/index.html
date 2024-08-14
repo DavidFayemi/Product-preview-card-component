@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" class="text-neutral-very-dark-blue font-primary text-s">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- display site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- CSS -->
+
+    <!-- Tailwind Styles -->
+    <link rel="stylesheet" href="./styles/tailwind.css" />
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  <body>
+    <!-- Wrapper -->
+    <div
+      class="flex items-center bg-primary-cream min-h-screen justify-center p-5"
+    >
+      <!-- Card component -->
+      <div
+        class="bg-white rounded-xl overflow-hidden grid grid-cols-1 sm:grid-cols-2"
+      >
+        <!-- Product image -->
+        <div class="sm:max-w-xs">
+          <picture>
+            <!-- Tablets and larger -->
+            <source
+              media="(min-width: 640px)"
+              srcset="./assets/images/image-product-desktop.jpg"
+            />
+            <!-- Phones -->
+            <img src="./assets/images/image-product-mobile.jpg" alt="" />
+          </picture>
+        </div>
+        <!-- Product image ends -->
+        <!-- Product details -->
+        <div class="p-8 flex flex-col justify-start sm:max-w-xs">
+          <!-- Product category -->
+          <span class="uppercase mb-5 text-neutral-dark-grayish-blue tracking-huge">
+            Perfume
+          </span>
+          <!-- Product category ends -->
+          <!-- Product name -->
+          <h1 class="text-4xl font-secondary font-bold mb-5">
+            Gabrielle Essence Eau De Parfum
+          </h1>
+          <!-- Product name ends -->
+          <!-- Product description -->
+          <p class="text-neutral-dark-grayish-blue mb-5">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+          <!-- Product description ends -->
+          <!-- Product price -->
+          <div class="flex gap-5 items-center mb-5">
+            <!-- Discount price -->
+            <span class="text-primary-dark-cyan text-4xl font-secondary">
+              $149.99
+              </span>
+              <!-- Discount price -->
+            <!-- Original price -->
+            <span class="text-neutral-dark-grayish-blue line-through">
+              $169.99
+              </span>
+              <!-- Original price ends -->
+          </div>
+          <!-- Product price ends -->
+          <!-- Add to cart button -->
+          <button
+            class="bg-primary-dark-cyan flex py-4 items-center justify-center gap-4 rounded-lg transition-colors hover:bg-primary-dark-cyan-hover"
+          >
+          <!-- Button icon -->
+            <img 
+            src="./assets/images/icon-cart.svg" alt="" 
+            />
+          <!-- Button icon ends -->
+           <!-- Button text -->
+            <span class="text-white"> 
+              Add to Cart 
+            </span>
+            <!-- Button text ends -->
+          </button>
+          <!-- Add to cart button ends -->
+        </div>
+        <!-- Product details ends -->
+      </div>
+      <!-- Card component ends -->
+    </div>
+    <!-- Wrapper ends -->
+  </body>
+</html>
