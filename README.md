@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repository](https://your-solution-url.com)
-- Live Site URL: [Github Pages](https://your-live-site-url.com)
+- Solution URL: [Github Repository](https://github.com/DavidFayemi/Product-preview-card-component)
+- Live Site URL: [Github Pages](https://davidfayemi.github.io/Product-preview-card-component)
 
 ## My process
 
@@ -83,8 +83,7 @@ Users should be able to:
 ## Author 
 - Frontend Mentor -
 [@DavidFayemi](https://www.frontendmentor.io/profile/DavidFayemi)
-- Github - [@DavidFayemi]() 
-- Freelancer - [@myusername]()
+- Github - [@DavidFayemi](https://github.com/DavidFayemi) 
 ## Acknowledgments 
 >All Glory to God
 
