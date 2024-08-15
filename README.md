@@ -40,7 +40,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repository](https://github.com/DavidFayemi/Product-preview-card-component)
-- Live Site URL: [Github Pages](https://davidfayemi.github.io/Product-preview-card-component)
+- Live Site URL: [Github Pages](https://davidfayemi.github.io/Product-preview-card-component/public)
 
 ## My process
 
